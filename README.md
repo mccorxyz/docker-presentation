@@ -9,3 +9,11 @@ The presentation is far from all encompasing. At times we went off on tangents a
 ## Running the demos
 
 I've added a `playbook.md` file to the root of each demo directory. It explains the demo, the value of the demo, and the commands necessary to try the demo for yourself.
+
+### Demo Five
+
+Demo five involves me spinning up the ELK-stack, which is a stack for storing and searching your software logs.
+
+I used [this repository](https://github.com/deviantony/docker-elk/tree/release-7.x?tab=readme-ov-file#default-kibana-index-pattern-creation) as the baseline for that demo.
+
+We then used a simple console application to quickly populate the stack with some logs to show how easy it is to quickly spin up many services and immediately benefit from them.
